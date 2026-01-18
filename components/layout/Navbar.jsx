@@ -23,10 +23,10 @@ const Navbar = () => {
                 <div className="navbar-menu">
                     {isAuthenticated ? (
                         <>
-                        <Link to="/dashboard" classname="nav=link">Dashboard</Link>
-                        <Link to="/projects" classname="nav=link">Projects</Link>
-                        <Link to="/tasks" classname="nav=link">Tasks</Link>
-                        <Link to="/kanban" classname="nav=link">kanban</Link>
+                        <Link to="/dashboard" className="nav-link">Dashboard</Link>
+                        <Link to="/projects" className="nav-link">Projects</Link>
+                        <Link to="/tasks" className="nav-link">Tasks</Link>
+                        <Link to="/kanban" className="nav-link">kanban</Link>
 
                         <div className="nav-user">
                             <span className="user-name">{user?.name || 'User'}</span>
